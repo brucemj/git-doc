@@ -1,17 +1,12 @@
-http://code.google.com/p/tortoisegit/wiki/Download
-http://code.google.com/p/msysgit/downloads/list
+@admin zhangguoqiang mojun chenjing
+@test = kk1 kk2
+@pm = qianlili
+@devs = caihanzhong heqing huangyanchang  xieweiwei chenliping pengzhongdong
 
-
++------------------------
 git config --global http.proxy "172.21.8.8:8080"
 git config --global user.name "mojun"
 git config --global user.email  "mojun@konka.com"
-
-git config --global http.proxy "172.21.8.8:8080"
-git config --global alias.ci "commit"
-git config --global alias.co "checkout"
-git config --global alias.br "branch"
-git config --global alias.lg "log --graph --oneline"
-
 
 git config --system alias.ci "commit"
 git config --system alias.co "checkout"
@@ -20,10 +15,14 @@ git config --system alias.lg "log --graph --oneline"
 git config --system color.ui true
 
 git clone https://android.googlesource.com/platform/packages/apps/Mms
-
 +------------------------
 git clone -b developmentWork git@172.21.5.248:android4.1/w960
 git clone -b developmentWork git@172.21.5.248:android4.1/w900p
+
+from svn
+git clone -b developmentWork git@172.21.5.248:mt6577/E950_mt6577_ICS2_muse.git
+https://172.21.5.130/svn/mt6577/E950_mt6577_ICS2_muse/alps
+git svn clone https://172.21.5.130/svn/mt6577/E950_mt6577_ICS2_muse -t tags -T alps e950-svn2git
 +------------------------
 
 developmentWork
@@ -31,3 +30,10 @@ driverOnly
 master
 mtkCodebase
 projectRelease
+
+
+git prompt
+http://volnitsky.com/project/git-prompt/
+http://railstips.org/blog/archives/2009/02/02/bedazzle-your-bash-prompt-with-git-info/
+http://eseth.org/2010/git-in-zsh.html
+./git-graph.rb . | dot -Tsvg -ohistory.svg /dev/stdin
