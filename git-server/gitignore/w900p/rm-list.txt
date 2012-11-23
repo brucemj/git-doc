@@ -1,0 +1,23 @@
+# rm these files for clean repo
+
+bootable/bootloader/lk/build-konka77_cu_jb/
+kernel/out/
+auto_sync_android.log
+mediatek/build/tools/SignTool/inc/build_info.h
+mediatek/build/tools/SignTool/lib/SignLib.a
+mediatek/cgen/Cgen_db.err
+mediatek/custom/konka77_cu_jb/kernel/dct/dct/*.c
+mediatek/custom/konka77_cu_jb/kernel/dct/dct/*.h
+mediatek/platform/mt6577/preloader/src/init/inc/preloader.h
+mediatek/preloader/preloader_konka77_cu_jb.bin
+
+
+mediatek/cgen/APDB_MT6577_S01_MAIN2.1_W10.24
+mediatek/cgen/_APDB_MT6577_S01_MAIN2.1_W10.24.check
+mediatek/custom/common/cgen/inc/cfg_module_default.h
+mediatek/custom/common/cgen/inc/cfg_module_file.h
+mediatek/custom/konka77_cu_jb/cgen/inc/custom_cfg_module_default.h
+mediatek/custom/konka77_cu_jb/cgen/inc/custom_cfg_module_file.h
+mediatek/kernel/trace32/konka77_cu_jb_ramdisk.img
+mediatek/packages/apps/Bluetooth/build/AndroidManifest.xml
+mediatek/preloader/system.map

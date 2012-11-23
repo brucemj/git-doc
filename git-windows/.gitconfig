@@ -1,0 +1,16 @@
+[user]
+	email = mojun@konka.com
+	name = mojun
+[http]
+	proxy = 172.21.8.8:8080
+[alias]
+	ci = commit
+	co = checkout
+	br = branch
+	lg = log --graph --oneline
+[diff]
+	tool = bc3
+[difftool "bc3"]
+	cmd = \"/c/program files/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
