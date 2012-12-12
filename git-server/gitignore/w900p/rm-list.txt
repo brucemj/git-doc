@@ -21,3 +21,11 @@ mediatek/custom/konka77_cu_jb/cgen/inc/custom_cfg_module_file.h
 mediatek/kernel/trace32/konka77_cu_jb_ramdisk.img
 mediatek/packages/apps/Bluetooth/build/AndroidManifest.xml
 mediatek/preloader/system.map
+
+不能删除的文件：
+mediatek/custom/konka77_cu_jb/preloader/custom_emi.c mediatek/platform/mt6577/preloader/src/security/inc/KEY_IMAGE_AUTH.h mediatek/platform/mt6577/preloader/src/security/inc/KEY_SML_AUTH.h mediatek/platform/mt6577/preloader/src/security/inc/KEY_SML_ENCODE.h
+ 
+mediatek/custom/konka77_cu_jb/preloader/custom_emi.c
+mediatek/platform/mt6577/preloader/src/security/inc/KEY_IMAGE_AUTH.h
+mediatek/platform/mt6577/preloader/src/security/inc/KEY_SML_AUTH.h
+mediatek/platform/mt6577/preloader/src/security/inc/KEY_SML_ENCODE.h

@@ -12,19 +12,25 @@ git config --system alias.ci "commit"
 git config --system alias.co "checkout"
 git config --system alias.br "branch"
 git config --system alias.lg "log --graph --oneline"
+git config --system alias.st "status -s"
 git config --system color.ui true
 
 git clone https://android.googlesource.com/platform/packages/apps/Mms
 git clone https://android.googlesource.com/platform/frameworks/base
 git clone git@172.21.5.248:google/platform/frameworks/base
+git clone git@172.21.5.248:hello-world
 +------------------------
 git clone -b developmentWork git@172.21.5.248:android4.1/w960
 git clone -b developmentWork git@172.21.5.248:android4.1/w900p
+
+git clone git@172.21.5.248:dev/ALPS.JB.MP.V1_KONKA77_CU_JB
 
 from svn
 git clone -b developmentWork git@172.21.5.248:mt6577/E950_mt6577_ICS2_muse.git
 https://172.21.5.130/svn/mt6577/E950_mt6577_ICS2_muse/alps
 git svn clone https://172.21.5.130/svn/mt6577/E950_mt6577_ICS2_muse -t tags -T alps e950-svn2git
+
+
 +------------------------
 
 developmentWork
