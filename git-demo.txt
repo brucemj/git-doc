@@ -14,6 +14,8 @@ git config --system alias.br "branch"
 git config --system alias.lg "log --graph --oneline"
 git config --system alias.st "status -s"
 git config --system color.ui true
+git config --system core.editor vi
+git config --system core.gitproxy gitproxy
 
 git clone https://android.googlesource.com/platform/packages/apps/Mms
 git clone https://android.googlesource.com/platform/frameworks/base
