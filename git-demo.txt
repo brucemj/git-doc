@@ -1,7 +1,7 @@
 @admin zhangguoqiang mojun chenjing
 @test = kk1 kk2
 @pm = qianlili
-@devs = caihanzhong heqing huangyanchang  xieweiwei chenliping pengzhongdong
+@devs = caihanzhong heqing huangyanchang xieweiwei chenliping pengzhongdong
 
 +------------------------
 git config --global http.proxy "172.21.8.8:8080"
@@ -16,6 +16,7 @@ git config --system alias.st "status -s"
 git config --system color.ui true
 git config --system core.editor vi
 git config --system core.gitproxy gitproxy
+git config --system apply.whitespace "nowarn"
 
 git clone https://android.googlesource.com/platform/packages/apps/Mms
 git clone https://android.googlesource.com/platform/frameworks/base
